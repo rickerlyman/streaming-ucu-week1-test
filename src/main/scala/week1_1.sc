@@ -12,7 +12,7 @@ val lb=List(1,2,3,4,5)
 // Ex #1
 // Write a function which for a given number
 // returns a List of random integers of that length
-def randomList(length: Int) = ???
+def randomList(length: Int): List[Int] = ???
 
 
 // Ex #2
@@ -26,8 +26,13 @@ val ints = 1 :: 2 :: 3 :: 4 :: 5 :: 6 :: 7 :: 8 :: 9 :: Nil
 val f: Int => Boolean = _ % 2 == 0
 assert(filter(ints, f) == List(2,4,6,8))
 
+// Ex #2.1
+// Using randomList - generate 10x10 table of random numbers,
+// filter negatives using for comprehension and filter
+// println a table
 
-/*=============================================*/
+
+/*=============================================rec*/
 
 // Ex #3
 // Write a function to sum all integers between two given numbers a and b:
@@ -54,7 +59,7 @@ def sum(f: Int => Int)(a: Int, b: Int): Int = ???
 def sum1(f: Int => Int)(a: Int, b: Int): Int = ???
 
 
-/*=============================================*/
+/*=============================================match*/
 
 // Ex #7
 // write a function which returns last element
@@ -91,7 +96,7 @@ def median(l: List[Int]): Int = ???
 // - rewrite using recursion
 def factorial(n: Int): Int = ???
 
-/*=============================================*/
+/*=============================================tail*/
 
 // Ex #11
 // rewrite sum function to be tail-recursive
