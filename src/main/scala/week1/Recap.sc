@@ -10,6 +10,9 @@ val ints = List(1,2,3,4,5,6,7,8,9)
 val f: Int => Boolean = _ % 2 == 0
 assert(filter(ints, f) == List(2,4,6,8))
 
+// def head(list: List[Int]): Int = ???
+// def sum(list: List[Int]): Int = ???
+
 // Ex #2.1
 // Using randomList - generate 10x10 table of random numbers,
 // filter negatives using for comprehension and filter function above
