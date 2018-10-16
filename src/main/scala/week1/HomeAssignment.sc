@@ -9,8 +9,7 @@ Grammar:
   number -> regex([0-9]+)
 
 Hints:
-  - use pattern matching to match operator:
-    case "+" :: tail
+  - use pattern matching to match operators and numbers in List
   - use .toInt to parse number
     "1".toInt == 1
 */

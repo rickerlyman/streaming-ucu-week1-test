@@ -2,7 +2,15 @@
 // Ex #7
 // write a function which returns last element
 // of a given list of integers, using pattern matching and recursion
-def last(l: List[Int]): Int = ???
+def last(l: List[Int]): Int = {
+  l match {
+    case Nil => throw new Error()
+    case head :: Nil => head
+    case _ :: tail => last(tail)
+  }
+}
+
+assert(last(1 :: 2 :: 3 :: Nil) == 3)
 
 
 // Ex #8
