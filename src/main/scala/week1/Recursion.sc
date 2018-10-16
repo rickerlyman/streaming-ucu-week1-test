@@ -19,7 +19,7 @@ def sumSquares(a: Int, b: Int): Int = sum(square)(a, b)
 
 
 // Ex #5
-// write a common function to perform summing
+// write a common function to сalculate sum of integers from a to b with f applied to each of them
 def sum(f: Int => Int)(a: Int, b: Int): Int = {
   if (a == b) a else f(a) + sum(f)(a + 1, b)
 }
