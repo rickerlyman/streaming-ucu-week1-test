@@ -21,7 +21,7 @@ Run unit test from within sbt using console. Run unit test from withing IDEA.
 ### Running
 Create Scala console application which evaluates expression given in example (18/27-1/2).
 Create run configuration from within IDEA, run it. Run it using sbt directly through terminal.
-Package jar artifact and create sh script to run program using `scala` utility
+Package jar artifact and create sh/bat script to run program using `scala` utility
 
 ### Submitting the result
 The result should be a zip archive containing the project with code and runnable script submitted to grading system.
