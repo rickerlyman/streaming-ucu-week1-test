@@ -26,7 +26,7 @@ Package jar artifact and create sh/bat script to run program using `scala` utili
 ### Submitting the result
 The result should be a zip archive containing the project with code and runnable script submitted to grading system.
 
-### Advanced topic (Optional)
+### Advanced topic (Optional/Bonus)
 Write parser for a given Rational expression from arbitrary string.
 Learn about parser combinators from [here](https://www.artima.com/pins1ed/combinator-parsing.html).
 Program should supply string from command line arguments.
